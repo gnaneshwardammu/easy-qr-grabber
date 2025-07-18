@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				qr: {
+					success: 'hsl(var(--qr-success))',
+					'success-foreground': 'hsl(var(--qr-success-foreground))',
+					hover: 'hsl(var(--qr-hover))',
+					active: 'hsl(var(--qr-active))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
