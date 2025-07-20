@@ -9,7 +9,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Switch } from "@/components/ui/switch";
 import { Download, Copy, Share2, Eye } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-
 type QRType = "url" | "text" | "email" | "phone" | "sms" | "contact" | "wifi";
 
 interface ContactData {
